@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+   memcached-builder:
+     image: fccorg/php70-memcached-builder
+     volumes:
+       - ./output:/output
